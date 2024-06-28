@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Criação de Cards - OZONTECK</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <script src="./src/js/integracao.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./src/imagens/logo inicial.png" alt="Logo">
+        </div>
+        <h1 class="titulo">
+            FORMULÁRIO DE CRIAÇÃO DE CARDS
+        </h1>
+        <div class="descricao">
+            <p>Formulário para preenchimento de demandas para a equipe de TI</p>
+            <p>Tickets: BUGS e CORREÇÕES</p>
+        </div>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="inputSolicitante">Preencha o seu nome e equipe: </label>
+                <input type="text" id="inputSolicitante" name="solicitante">
+            </div> 
+            <div class="NivelTexto">
+                <p>Nível cliente:</p>
+                <div class="Niveis">
+                    <div class="executivo">
+                        <input type="checkbox" id="checkExecutivo" name="checkboxExecutivo">
+                        <label for="checkExecutivo">Executivo</label>
+                    </div>
+                    <div class="topazio">
+                        <input type="checkbox" id="checkTopazio" name="checkboxTopazio">
+                        <label for="checkTopazio">Topázio</label>
+                    </div>
+                    <div class="onix">
+                        <input type="checkbox" id="checkOnix" name="checkboxOnix">
+                        <label for="checkOnix">Ônix</label>
+                    </div>
+                    <div class="ametista">
+                        <input type="checkbox" id="checkAmetista" name="checkboxAmetista">
+                        <label for="checkAmetista">Ametista</label>
+                    </div>
+                    <div class="diamante">
+                        <input type="checkbox" id="checkDiamante" name="checkboxDiamante">
+                        <label for="checkDiamante">Diamante</label>
+                    </div>
+                    <div class="jade">
+                        <input type="checkbox" id="checkJade" name="checkboxJade">
+                        <label for="checkJade">Jade</label>
+                    </div>
+                    <div class="jasme">
+                        <input type="checkbox" id="checkJasme" name="checkboxJasme">
+                        <label for="checkJasme">Jasme</label>
+                    </div>
+                    <div class="RoyalBlack">
+                        <input type="checkbox" id="checkRoyalBlack" name="checkboxRoyalBlack">
+                        <label for="checkRoyalBlack">Royal</label>
+                    </div>
+                    <div class="dreamRed">
+                        <input type="checkbox" id="checkDreamRed" name="checkboxDreamRed">
+                        <label for="checkDreamRed">DreamRed</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputDescricao">Descrição do erro:</label>
+                <input type="text" id="inputDescricao" name="descricao">
+            </div>
+            <div class="form-group">
+                <label for="inputCaminho">Caminho para reproduzir o erro:</label>
+                <input type="text" id="inputCaminho" name="caminho">
+            </div>
+            <div class="form-group">
+                <label for="arquivoInput">Anexe os arquivos:</label>
+                <input type="file" id="arquivoInput" name="arquivoInput[]" multiple>
+            </div>
+            <div class="botaoenviar">
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
+<!--  idcliente: 8GQAF53G13YEHKKB9K8WDXCMXJST8X9V
+  idapi: 5ANEND8LR23BFFNQE41FJ7J3MW8XLC5FZGRKYRNDXR4WULJ7FDLDC2M61D4K4LLU -->

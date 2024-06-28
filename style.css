@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #c4d4f2, #f0f0f0);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo img {
+    max-width: 400px;
+}
+
+.titulo {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.form-group input[type="file"]::-webkit-file-upload-button {
+    background: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group input[type="file"]::-webkit-file-upload-button:hover {
+    background: #45a049;
+}
+
+.form-group input[type="file"]:hover {
+    border-color: #4CAF50;
+}
+
+.form-group input[type="file"]:focus,
+.form-group input[type="text"]:focus {
+    outline: none;
+    border-color: #020202;
+}
+
+.Niveis {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.Niveis > div {
+    flex: 1;
+    text-align: center;
+    margin: 2px;
+}
+
+.Niveis input[type="checkbox"] {
+    display: none;
+}
+
+.Niveis label {
+    color: #ffff;
+    display: block;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.Niveis .executivo label {
+    background-color: #cd7f32;
+}
+
+.Niveis .topazio label {
+    background-color: #5a3ef6;
+}
+
+.Niveis .onix label {
+    background-color: #b1b1b1;
+}
+
+.Niveis .ametista label {
+    background-color: #9C27B0;
+}
+
+.Niveis .diamante label {
+    background-color: #070707;
+}
+
+.Niveis .jade label {
+    background-color: #8BC34A;
+}
+
+.Niveis .jasme label {
+    background-color: #FF9800;
+}
+
+.Niveis .RoyalBlack label {
+    background-color: #161c01;
+
+}
+
+.Niveis .dreamRed label {
+    background-color: #E91E63;
+}
+
+.Niveis label:hover {
+    background-color: #29532f;
+}
+
+
+.Niveis .selecionado label {
+    /* Estilo para destacar o nível selecionado */
+    background-color: #f0f0f0; /* Cinza claro */
+    border: 2px solid #000000; /* Cor preta */
+    color: black; /* Cor do texto */
+    padding: 5px 10px; /* Ajuste o padding conforme necessário */
+}
+
+
+.botaoenviar {
+    background-color: #8BC34A;
+    border-radius: 10px;
+    border-color: #020202;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-enviar {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    border-radius: 10px;
+    width: 250px;
+    background-color: #4b5677;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #3e455d;
+}
